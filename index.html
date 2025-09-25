@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetable Shop</title>
+    <!-- gOOGLE FONT CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font AWESOME cdn-->
+    <script src="https://kit.fontawesome.com/73e3920807.js" crossorigin="anonymous"></script>
+    <!-- disy UI CDN -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+      .font-manrope{
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'leaf-primary': '#5CA904',
+            'leaf-primary-bg': '#5CA9041A',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-manrope">
+    <header class="md:container mx-auto">
+<nav>
+<div class="navbar bg-base-100">
+  <div class="navbar-start">
+    <img class="w-[20%]" src="assets/logo-header.png" alt="">
+         
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><a>Product</a></li>
+      <li><a>Services</a></li>
+      
+      <li><a>Contact us</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <i class="fa-solid fa-search"></i>
+    <i class="fa-solid fa-cart-shopping"></i>
+    <a class="btn border-black ">Log in</a>
+    <a class="btn text-white bg-leaf-primary">Button</a>
+  </div>
+</div>
+</nav>
+<!-- banner -->
+ <section>
+    <div class=" p-20 text-center lg:px-40 ">
+        <h1 class="font-bold text-6xl ">Freshness <span class="text-leaf-primary">You Can <br>Count </span>On, Prices You'll Love!</h1>
+        <p class="text-gray-700 mt-6 px-40">Shop your daily products at unbeatable prices. From fresh produce to pantry staples, we've got you covered every day!</p>
+    </div>
+    <div class="">
+        <img src="assets/hero-vegetables.png" class="w-full animate-bounce  px-80" alt="">
+    </div>
+ </section>
+    </header>
+    <main class="">
+
+    </main>
+</body>
+</html>
